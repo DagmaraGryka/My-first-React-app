@@ -9,11 +9,11 @@ import Icon from '../Icon/Icon.js';
 
 class Column extends React.Component {
   static propTypes = {
-    titleColumn: PropTypes.string,
+    title: PropTypes.string,
     icon: PropTypes.node,
     cards: PropTypes.array,
     addCard: PropTypes.func,
-    //name: PropTypes.node,
+    name: PropTypes.node,
   };
 
   static defaultProps = {

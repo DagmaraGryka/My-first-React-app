@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Button.scss';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
+// eslint-disable-next-line react/prop-types
 const Button = ({variant = '', ...otherProps}) => (
   <button 
     {...otherProps} 
@@ -9,8 +10,8 @@ const Button = ({variant = '', ...otherProps}) => (
   />
 );
 
-Button.propTypes = {
-  variant: PropTypes.node,
-};
+//Button.propTypes = {
+//  variant: PropTypes.node,
+//};
 
 export default Button;
