@@ -53,7 +53,7 @@ class Search extends React.Component {
             value={value}
             onChange={event => this.handleChange(event)}
           />
-          <div className={styles.buttons}>
+          <div className={styles.buttons, styles.glass}>
             <Button onClick={() => this.handleOK()}><Icon name={icon} /></Button>
           </div>
           <div>
