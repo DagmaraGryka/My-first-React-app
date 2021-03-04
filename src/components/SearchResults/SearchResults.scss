@@ -1,0 +1,27 @@
+@import '../../styles/settings.scss';
+
+.component {
+  -ms-flex-align: center;
+  background: $color-light;
+  padding: ($base-size * 1.5);
+  border-radius: $radius;
+  color: $color-dark;
+
+  &:last-child {
+    margin: ($base-size * 1.5) ; 
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: ($base-size * 1.5);
+  margin: 0 0 ($base-size * 1.5) 0;
+}
+
+.icon > * {
+  padding-right: $base-size;
+  color: $color-warning;
+  font-size: ($base-size * 2);
+  vertical-align: middle;
+}
+
